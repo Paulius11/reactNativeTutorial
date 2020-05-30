@@ -5,8 +5,8 @@ import drawerNavigator from './routes/drawer';
 
 
 const getFonts = () => Font.loadAsync({
-    'roboto-regular' : require('./assets/fonts/Nunito-Regular.ttf'),
-    'roboto-bold' : require('./assets/fonts/Nunito-Bold.ttf')
+    'numino-regular' : require('./assets/fonts/Nunito-Regular.ttf'),
+    'numino-bold' : require('./assets/fonts/Nunito-Bold.ttf')
     // 'roboto-regular' : require('./assets/fonts/Roboto-Regular.ttf'),
     // 'roboto-bold' : require('./assets/fonts/Roboto-Bold.ttf')
   })
