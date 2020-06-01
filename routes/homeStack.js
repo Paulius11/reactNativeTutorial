@@ -5,7 +5,7 @@ import ReviewDetails from "../screens/ReviewDetails";
 import Header from '../shared/header';
 
 const Stack = createStackNavigator();
-const homeStack = ({ navigation }) => {
+const homeStack = () => {
 
   return (
     <Stack.Navigator
