@@ -2,6 +2,7 @@ import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack'
 import About from "../screens/About";
 import Header from '../shared/header'
+import { Image } from 'react-native';
 
 const Stack = createStackNavigator()
 
@@ -23,6 +24,7 @@ export default function aboutNavigator() {
           component={About} 
           options={() => ({ 
             headerTitle: () => <Header title='About' />,
+            headerBackground: () => <Image source={require('../assets/game_bg.png')} style={{height:80}}/>
           })}
       />
     </Stack.Navigator>

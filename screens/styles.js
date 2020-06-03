@@ -6,7 +6,7 @@ export const globalStyles = StyleSheet.create({
         padding: 20
     },
     titleText: {
-        fontFamily: 'nunito-bold',
+        fontFamily: 'numino-bold',
         fontSize: 18,
         color: '#333'
     },

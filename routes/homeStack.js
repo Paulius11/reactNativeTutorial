@@ -3,6 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 import Home from "../screens/Home";
 import ReviewDetails from "../screens/ReviewDetails";
 import Header from '../shared/header';
+import { Image } from 'react-native';
 
 const Stack = createStackNavigator();
 const homeStack = () => {
@@ -25,6 +26,7 @@ const homeStack = () => {
         component={Home}
         options={ () => ({ 
           headerTitle: () => <Header  title='HOME' />,
+          headerBackground: () => <Image source={require('../assets/game_bg.png')} style={{height:80}}/>
         })}
 
 
